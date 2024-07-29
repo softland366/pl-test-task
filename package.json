@@ -1,0 +1,28 @@
+{
+	"name": "platinumlist",
+	"version": "1.0.0",
+	"description": "Test tast to get offer",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"test": "cypress run",
+		"code:format": "npx prettier . --write",
+		"prepare": "husky"
+	},
+	"author": "Dzmitry Parkheichuk",
+	"license": "ISC",
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/softland366/pl-test-task.git"
+	},
+	"devDependencies": {
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "3.3.3",
+		"cypress": "^13.13.1",
+		"cypress-wait-until": "^3.0.2"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	}
+}
