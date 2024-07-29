@@ -6,8 +6,7 @@
 	"scripts": {
 		"cy:open": "cypress open",
 		"test": "cypress run",
-		"code:format": "npx prettier . --write",
-		"prepare": "husky"
+		"code:format": "npx prettier . --write"
 	},
 	"author": "Dzmitry Parkheichuk",
 	"license": "ISC",
